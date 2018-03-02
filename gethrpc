@@ -1,0 +1,10 @@
+geth \
+  --identity "enry etherum" \
+  --rpcaddr 0.0.0.0 \
+  --rpc \
+  --rpcport 8545 \
+  --maxpeers 2 \
+  --rpcapi "db,eth,net,web3,debug" \
+  --networkid 1809 \
+  --datadir "./chain" \
+  --nodiscover
